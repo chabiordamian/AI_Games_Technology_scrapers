@@ -1,0 +1,3 @@
+[submodule "ext/igdb_api_python"]
+	path = ext/igdb_api_python
+	url = https://github.com/twitchtv/igdb-api-python
