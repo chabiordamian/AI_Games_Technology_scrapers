@@ -13,7 +13,7 @@ class AuthorizedUser:
         """
         This function posts client credentials and obtains response which has token data included.
         :raise:
-            HTTPError: Occurs if response returns code other then 200
+            requests.HTTPError: Occurs if response returns code other then 200
         :return:
             access_token: String token which is returned from OAUTH_URL, when user credentials is valid
         """
